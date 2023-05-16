@@ -1,0 +1,1631 @@
+﻿Switch31(config-if)#
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#^Z               
+Router#
+*Mar 21 15:39:00.541: %SYS-5-CONFIG_I: Configured from console by console      
+Router#delete flash:vlan.dat                                                 
+Delete filename [vlan.dat]? 
+Delete flash:vlan.dat? [confirm]
+%Error deleting flash:vlan.dat (File not found)
+Router#reload
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+*Mar 21 15:40:32.785: %SYS-5-RELOAD: Reload requested  by console. Reload Reason: Reload Command.
+
+System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2006 by cisco Systems, Inc.
+
+Initializing memory for ECC
+.
+
+Switch31(config-if)#^Z
+Switch31#
+1w4d: %SYS-5-CONFIG_I: Configured from console by console
+Switch31#delete flash:vlan.dat
+Delete filename [vlan.dat]? 
+Delete flash:vlan.dat? [confirm]
+Switch31#relaod
+Translating "relaod"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Switch31#
+Switch31#
+Switch31#
+Switch31#reload
+
+System configuration has been modified. Save? [yes/no]: 
+% Please answer 'yes' or 'no'.
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+1w4d: %SYS-5-RELOAD: Reload requested by console. Reload Reason: Reload command.
+Base ethernet MAC Address: 00:18:73:d2:55:80
+Xmodem file system is available.
+The password-recovery mechanism is enabled.
+Initializing Flash...
+flashfs[0]: 357 files, 5 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 15998976
+flashfs[0]: Bytes used: 11385344
+flashfs[0]: Bytes available: 4613632
+flashfs[0]: flashfs fsck took 17 seconds.
+...done Initializing Flash.
+Boot Sector Filesystem (bs) installed, fsid: 3
+done.
+Loading "flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin"...flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin: no such file or directory
+
+Error loading "flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin"
+
+Interrupt within 5 seconds to abort boot process.
+Loading "flash:/c3560-advipservicesk9-mz.122-40.SE.bin"...@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+File "flash:/c3560-advipservicesk9-mz.122-40.SE.bin" uncompressed and installed, entry point: 0x3000
+executing...
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, C3560 Software (C3560-ADVIPSERVICESK9-M), Version 12.2(40)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Fri 24-Aug-07 01:43 by myl
+Image text-base: 0x00003000, data-base: 0x01800000
+
+Initializing flashfs...
+
+flashfs[1]: 357 files, 5 directories
+flashfs[1]: 0 orphaned files, 0 orphaned directories
+flashfs[1]: Total bytes: 15998976
+flashfs[1]: Bytes used: 11385344
+flashfs[1]: Bytes available: 4613632
+flashfs[1]: flashfs fsck took 7 seconds.
+flashfs[1]: Initialization complete....done Initializing flashfs.
+
+POST: CPU MIC register Tests : Begin
+POST: CPU MIC register Tests : End, Status Passed
+
+POST: PortASIC Memory Tests : Begin
+POST: PortASIC Memory Tests : End, Status Passed
+
+POST: CPU MIC interface Loopback Tests : Begin
+POST: CPU MIC interface Loopback Tests : End, Status Passed
+
+POST: PortASIC RingLoopback Tests : Begin
+POST: PortASIC RingLoopback Tests : End, Status Passed
+
+POST: Inline Power Controller Tests : Begin
+POST: Inline Power Controller Tests : End, Status Passed
+
+POST: PortASIC CAM Subsystem Tests : Begin
+POST: PortASIC CAM Subsystem Tests : End, Status Passed
+
+POST: PortASIC Port Loopback Tests : Begin
+POST: PortASIC Port Loopback Tests : End, Status Passed
+
+Waiting for Port download...Complete
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C3560-24PS (PowerPC405) processor (revision P0) with 122880K/8184K bytes of memory.
+Processor board ID CAT1025ZJ76
+Last reset from power-on
+1 Virtual Ethernet interface
+24 FastEthernet interfaces
+2 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:18:73:D2:55:80
+Motherboard assembly number     : 73-9673-09
+Power supply part number        : 341-0029-05
+Motherboard serial number       : CAT1025051E
+Power supply serial number      : DTH1020DG4A
+Model revision number           : P0
+Motherboard revision number     : A0
+Model number                    : WS-C3560-24PS-E
+System serial number            : CAT1025ZJ76
+Top Assembly Part Number        : 800-26380-04
+Top Assembly Revision Number    : B0
+Version ID                      : V06
+CLEI Code Number                : COM1100ARC
+Hardware Board Revision Number  : 0x01
+
+
+Switch   Ports  Model              SW Version              SW Image            
+------   -----  -----              ----------              ----------          
+*    1   26     WS-C3560-24PS      12.2(40)SE              C3560-ADVIPSERVICESK
+
+
+
+
+Press RETURN to get started!
+
+
+00:00:35: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+00:00:36: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+00:00:58: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, C3560 Software (C3560-ADVIPSERVICESK9-M), Version 12.2(40)SE, RELEASE SOFTWARE (fc3)
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Fri 24-Aug-07 01:43 by myl
+00:00:59: %LINK-3-UPDOWN: Interface FastEthernet0/20, changed state to up
+00:01:00: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/20, changed state to up
+00:01:00: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/21, changed state to up
+00:01:02: %LINK-3-UPDOWN: Interface FastEthernet0/21, changed state to up
+
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: no
+Switch>ena
+Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hostname
+00:01:30: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up Switch31
+Switch31(config)#enable password cisco
+Switch31(config)#line con 0
+Switch31(config-line)#logging sync
+Switch31(config-line)#password cisco
+Switch31(config-line)#login
+Switch31(config-line)#int vlan 1
+Switch31(config-if)#ip address 172.16.31.101 255.255.255.0
+Switch31(config-if)#no shutdown
+Switch31(config-if)#
+00:02:34: %IP-4-DUPADDR: Duplicate address 172.16.31.101 on Vlan1, sourced by 6805.ca42.592a
+Switch31(config-if)#ip address 172.16.31.10 255.255.255.0  
+Switch31(config-if)#no shutdown                          
+Switch31(config-if)#
+% Please answer 'yes' or 'no'.
+Would you like to enter the initial configuration dialog? [yes/no]: no
+
+
+Press RETURN to get started!
+
+
+*Mar 21 15:43:18.839: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+*Mar 21 15:43:18.843: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+*Mar 21 15:43:20.535: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to down
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to down
+*Mar 21 15:43:20.539: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to down
+*Mar 21 15:43:20.539: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Mar 21 15:43:21.823: %SYS-3-NOELEMENT: data_enqueue:Ran out of buffer elements for enqu
+Router>
+Routeeue -Process= "<interrupt level>", ipl= 4, pid= 3,  -Traceback= 0x41697D20 0x40356324 0x4029CD68 0x40086C24 0x416ADE7C
+*Mar 21 15:43:22.039: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Mar 21 15:43:22.039: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+*Mar 21 15:43:22.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to down
+*Mar 21 15:43:22.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+*Mar 21 15:43:22.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/0, changed state to down
+*Mar 21 15:43:22.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/1, changed state to down
+*Mar 21 15:44:47.575: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+*Mar 21 15:46:06.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Mar 21 15:47:30.359: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+*Mar 21 15:47:30.367: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Mar 21 15:47:30.603: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Mar 21 15:47:30.603: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Mar 21 15:47:31.831: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Mar 21 15:47:31.835: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Mar 21 15:47:31.835: %LINK-5-CHANGED: Interface Serial0/0/0, changed state to administratively down
+*Mar 21 15:47:31.835: %LINK-5-CHANGED: Interface Serial0/0/1, changed state to administratively down
+*Mar 21 15:47:31.835: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to administratively down
+*Mar 21 15:47:31.835: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to administratively down
+*Mar 21 15:47:32.875: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Mar 21 15:47:34.615: %SYS-6-BOOTTIME: Time taken to reboot after reload =  367 secondsr>
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Router31
+Router31(config)#enable password cisco
+Router31(config)#line con 0
+Router31(config-line)#logging sync
+Router31(config-line)#password cisco
+Router31(config-line)#login
+Router31(config-line)#^Z                 
+Router31#
+*Mar 21 15:48:54.179: %SYS-5-CONFIG_I: Configured from console by console
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#int f0/0
+Router31(config-if)#ip address 172.16.31.1 255.255.255.0
+Router31(config-if)#no shutdown
+Router31(config-if)#^Z
+Router31#
+*Mar 21 15:49:19.979: %SYS-5-CONFIG_I: Configured from console by console
+Router31#conf 
+*Mar 21 15:49:20.787: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar 21 15:49:21.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#int f0/1
+Router31(config-if)#ip address 172.17.3.1 255.255.255.252
+Router31(config-if)#no shutdown
+Router31(config-if)#
+*Mar 21 15:52:12.655: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar 21 15:52:13.655: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Router31(config-if)#^Z
+Router31#p
+*Mar 21 15:52:46.343: %SYS-5-CONFIG_I: Configured from console by console
+Router31#ping 172.16.31.101
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.31.101, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 172.16.31.10 
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.31.10, timeout is 2 seconds:
+..!!!
+Success rate is 60 percent (3/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 172.16.31.10
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.31.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router eigrp
+% Incomplete command.
+
+Router31(config)#router eigrp 307
+Router31(config-router)#network 172.17.3.4
+Router31(config-router)#network 172.16.32.0
+Router31(config-router)#network 172.17.3.
+*Mar 21 15:55:32.315: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is up: new adjacency
+Router31(config-router)#network 172.17.3.8
+Router31(config-router)#network 172.16.33.0
+Router31(config-router)#network 172.16.34.0
+Router31(config-router)#^Z
+Router31#
+*Mar 21 15:57:18.391: %SYS-5-CONFIG_I: Configured from console by console
+Router31#ping 172.16.32.102
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.32.102, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#ping 172.17.3.2   
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.17.3.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 172.16.32.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.32.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router eigrp 307
+Router31(config-router)#no network 172.17.3.
+% Incomplete command.
+
+Router31(config-router)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/16 is variably subnetted, 4 subnets, 2 masks
+D       172.17.3.8/30 [90/2174976] via 172.17.3.2, 00:03:49, FastEthernet0/1
+D       172.17.3.4/30 [90/2172416] via 172.17.3.2, 00:08:53, FastEthernet0/1
+D       172.17.0.0/16 is a summary, 00:09:15, Null0
+C       172.17.3.0/30 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 is a summary, 00:08:53, Null0
+Router31(config-router)#
+*Mar 21 16:05:10.235: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:05:23.639: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:05:37.331: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:05:51.363: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:06:05.435: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:06:19.027: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:06:33.079: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:06:47.351: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:07:01.271: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#disable autosumm
+                           ^
+% Invalid input detected at '^' marker.
+
+Router31(config-router)#disable autosumm
+*Mar 21 16:07:15.623: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#disable autosumm
+*Mar 21 16:07:29.259: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#disable autosumm
+*Mar 21 16:07:42.775: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#disable autosumm
+*Mar 21 16:07:56.631: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#no auto-summary 
+Router31(config-router)#
+*Mar 21 16:08:06.043: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is resync: summary configured
+Router31(config-router)#
+*Mar 21 16:08:10.663: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#do sh ip route  
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:07:37, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:12:42, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90/30720] via 172.17.3.2, 00:00:10, FastEthernet0/1
+Router31(config-router)#
+*Mar 21 16:08:19.571: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is resync: peer graceful-restart
+Router31(config-router)#
+*Mar 21 16:08:24.283: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:08:38.287: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:08:52.139: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:09:05.887: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:09:19.555: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.16.44
+*Mar 21 16:09:33.399: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#ne               
+*Mar 21 16:09:47.275: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#do sh ip route 
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:09:23, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:14:28, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+D       172.16.32.0/24 [90/30720] via 172.17.3.2, 00:01:42, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90
+*Mar 21 16:10:01.383: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0/2174976] via 172.17.3.2, 00:00:46, FastEthernet0/1
+Router31(config-router)#
+*Mar 21 16:10:14.459: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:10:28.291: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:10:42.463: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:10:57.003: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:11:10.611: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#^Z   
+Router31#
+*Mar 21 16:11:21.611: %SYS-5-CONFIG_I: Configured from console by console
+Router31#     
+*Mar 21 16:11:24.123: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#ping 172.16.32.102
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.32.102, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 172.16.3     
+*Mar 21 16:11:38.603: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#ping 172.16.33.103
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.33.103, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/4 ms
+Router31#ping 172.16.34.104
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.34.104, timeout is 2 seconds:
+U.U
+*Mar 21 16:11:51.695: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0.U
+Success rate is 0 percent (0/5)
+Router31#
+*Mar 21 16:12:05.739: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:12:19.643: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:12:33.631: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:12:47.275: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:13:01.467: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:13:15.339: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:13:29.391: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:13:42.663: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:13:56.255: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:14:09.651: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:14:23.527: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:14:37.183: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:14:50.723: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:15:04.583: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:15:18.715: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:15:32.495: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:15:46.519: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:16:00.111: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#int lo0
+Router31(config-if)#
+*Mar 21 16:16:12.907: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+Router31(config-if)#
+*Mar 21 16:16:13.395: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:16:27.183: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 
+*Mar 21 16:16:41.543: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.255.201
+*Mar 21 16:16:55.971: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.255.201 255 
+*Mar 21 16:17:09.523: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.255.201 255.255.255.255
+Router31(config-if)#
+*Mar 21 16:17:23.379: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#noshutdown
+                      ^
+% Invalid input detected at '^' marker.
+
+Router31(config-if)#no shutdown
+Router31(config-if)#
+*Mar 21 16:17:37.975: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:17:51.783: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:18:05.987: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:18:20.247: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:18:34.223: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:18:47.967: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:19:01.695: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:19:15.243: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:19:29.911: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:19:43.043: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:19:56.615: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:20:09.911: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:20:23.927: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:20:38.259: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#no ip address 172.16.255.201 255.255.255.255
+Router31(config-if)#no ip address 172.16.255.201 255.255.255.255
+*Mar 21 16:20:52.391: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.33.201 255.255.255.255    
+*Mar 21 16:21:06.803: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.33.201 255.255.255.255
+Router31(config-if)#no shutdown                                 
+Router31(config-if)#
+*Mar 21 16:21:20.951: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:21:35.707: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:21:49.535: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:22:03.359: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:22:17.459: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:22:31.463: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:22:44.891: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:22:58.615: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:23:12.559: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:23:26.607: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#^Z
+Router31#sh i
+*Mar 21 16:23:38.695: %SYS-5-CONFIG_I: Configured from console by console
+Router31#sh ip route
+*Mar 21 16:23:40.727: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:02:53, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:02:53, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 5 subnets, 3 masks
+C       172.16.33.201/32 is directly connected, Loopback0
+D       172.16.33.202/32 [90/156160] via 172.17.3.2, 00:02:27, FastEthernet0/1
+D       172.16.32.0/24 [90/30720] via 172.17.3.2, 00:02:54, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90/2174976] via 172.17.3.2, 00:02:54, FastEthernet0/1
+Router31#
+*Mar 21 16:23:55.315: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:24:09.255: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:24:23.411: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:24:36.859: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:24:50.463: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:25:04.459: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:25:18.691: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:25:32.715: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:25:46.819: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:26:00.667: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:26:15.003: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:26:29.195: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:26:42.875: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:26:56.271: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:27:10.211: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:27:24.423: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:27:38.567: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:27:51.999: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:28:06.139: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#ping 172.16.32.102
+*Mar 21 16:28:20.011: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#conf t            
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#int lo0
+Router31(config-if)#ip address 172.16.11
+*Mar 21 16:28:33.723: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.17.133.
+*Mar 21 16:28:47.311: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.133.201 
+*Mar 21 16:29:01.035: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#ip address 172.16.133.201 255.255.255.255
+Router31(config-if)#no shutd
+*Mar 21 16:29:14.391: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#no shutdown
+Router31(config-if)#
+*Mar 21 16:29:28.587: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:29:41.899: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:29:55.491: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:30:08.759: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:30:22.755: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:30:36.651: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:30:50.247: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:31:04.135: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:31:18.611: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:31:32.603: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:31:45.959: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:31:59.707: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:32:13.483: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:32:27.079: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:32:40.607: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:32:53.739: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:33:07.235: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:33:21.223: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:33:34.587: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:33:48.763: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:34:02.635: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:34:16.371: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:34:29.811: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:34:43.295: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:34:57.415: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:35:11.119: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:35:25.855: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:35:40.107: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+Router31(config-if)#
+*Mar 21 16:35:54.635: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:36:08.739: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:36:22.763: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:36:37.107: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:36:51.259: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:37:04.591: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:37:17.959: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:37:31.667: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:37:45.831: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:37:59.859: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:38:12.995: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:38:26.295: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:38:29.459: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is down: Interface Goodbye received
+Router31(config-if)#
+*Mar 21 16:38:32.095: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is up: new adjacency
+Router31(config-if)#
+*Mar 21 16:38:40.831: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:38:54.651: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:39:08.651: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:39:21.847: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:39:35.291: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:39:49.315: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:40:02.639: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:40:16.047: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:40:30.155: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:40:45.027: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:40:59.051: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:41:12.983: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:41:27.031: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:41:41.291: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:41:54.671: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:42:08.639: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:42:22.727: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:42:36.847: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:42:51.323: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:43:05.039: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:43:18.859: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#
+*Mar 21 16:43:32.579: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-if)#^Z
+Router31#
+*Mar 21 16:43:43.151: %SYS-5-CONFIG_I: Configured from console by console
+Router31#
+*Mar 21 16:43:46.467: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#sh ip protocol
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.0.0
+    172.17.0.0
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      00:48:24
+    172.17.3.2            90      00:05:25
+  Distance: internal 90 external 170
+
+Router31#
+*Mar 21 16:44:00.895: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#
+*Mar 21 16:44:14.831: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router ei
+*Mar 21 16:44:28.859: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config)#router eigrp 307
+Router31(config-router)#no network 172.16.0.0
+Router31(config-router)#no network 172.17.0.0
+Router31(config-router)#
+*Mar 21 16:44:46.383: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is down: interface down
+Router31(config-router)#eigrp router-id 172.16.133.201
+Router31(config-router)#network 172.16.133.201 0.0.0.0
+Router31(config-router)#network 172.16.31.0 0.0.255  
+% Incomplete command.
+
+Router31(config-router)#network 172.16.31.0 0.0.0.255
+Router31(config-router)#network 172.
+*Mar 21 16:47:23.555: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.17.3.8 
+*Mar 21 16:47:37.531: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.17.3.8 0.0.0.3
+Router31(config-router)#do sh ip protocol
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0/24
+    172.16.133.201/32
+    172.17.3.8/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      00:52:15
+    172.17.3.2            90      00:03:07
+  Distance: internal 90 external 170
+
+Router31(config-router)#
+*Mar 21 16:47:51.467: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:48:04.983: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:48:19.091: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:48:32.367: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 1 subnets
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+Router31(config-router)#
+*Mar 21 16:48:46.491: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:49:00.087: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:49:14.007: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)# 
+*Mar 21 16:49:27.851: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.
+*Mar 21 16:49:41.323: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.16.133.202 255.255.255.255
+*Mar 21 16:49:55.351: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.16.133.202 255.255.255.255
+Router31(config-router)#network 172.16.133.203 255.255.255.255
+Router31(config-router)#network 172.16.133.204 255.255.255.255
+*Mar 21 16:50:09.175: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#network 172.16.133.204 255.255.255.255
+Router31(config-router)#network 
+*Mar 21 16:50:22.615: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#            
+*Mar 21 16:50:36.683: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:50:51.275: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:51:05.271: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:51:18.923: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:51:32.887: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:51:47.127: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:52:00.707: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:52:15.135: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:52:29.019: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:52:43.099: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:52:57.207: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:53:10.739: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:53:24.095: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:53:38.395: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:53:52.159: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:54:06.683: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:54:20.947: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#do sh ip protocol                     
+*Mar 21 16:54:34.363: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#do sh ip protocol         
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0/24
+    172.16.133.201/32
+    172.16.133.202/32
+    172.16.133.203/32
+    172.16.133.204/32
+    172.17.3.8/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      00:59:03
+    172.17.3.2            90      00:09:55
+          
+Router31(config-router)#do sh ip route                        
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 1 subnets
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+Router31(config-router)#
+*Mar 21 16:54:48.111: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:55:02.759: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:55:16.491: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:55:30.467: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:55:44.583: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:55:58.267: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:56:12.215: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:56:25.355: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:56:38.931: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:56:52.871: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:57:06.103: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:57:19.443: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:57:33.267: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:57:47.335: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:58:01.079: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#
+*Mar 21 16:58:15.167: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31(config-router)#^Z
+Router31#
+*Mar 21 16:58:28.695: %SYS-5-CONFIG_I: Configured from console by console
+Router31#conf
+*Mar 21 16:58:28.723: IP-EIGRP(Default-IP-Routing-Table:307): Neighbor 172.16.44.1 not on common subnet for FastEthernet0/0
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#
+
+User Access Verification
+
+Password: 
+Switch31>ena
+Password: 
+Switch31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch31(config)#int f0/1
+Switch31(config-if)#
+01:18:24: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+Switch31(config-if)#
+01:18:26: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Switch31(config-if)#do sh ip route
+Default gateway is not set
+
+Host               Gateway           Last Use    Total Uses  Interface
+ICMP redirect cache is empty
+Switch31(config-if)# 
+Router31(config)#
+Router31(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 1 subnets
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+Router31(config)#^Z
+Router31#ping 
+*Mar 21 17:07:46.571: %SYS-5-CONFIG_I: Configured from console by console
+Router31#ping 172.16.31.102
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.31.102, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#ping 172.16.31.102
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.31.102, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#do sh ip protocol
+             ^
+% Invalid input detected at '^' marker.
+
+Router31#sh ip protocol   
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0/24
+    172.16.133.201/32
+    172.16.133.202/32
+    172.16.133.203/32
+    172.16.133.204/32
+    172.17.3.8/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      01:13:32
+    172.17.3.2            90      00:24:24
+  Distance: internal 90 external 170
+
+Router31# conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router eigrp 307
+Router31(config-router)#no network 172.16.133.202
+Router31(config-router)#no network 172.16.133.202 0.0.0.0
+Router31(config-router)#no network 172.16.133.203 0.0.0.0
+Router31(config-router)#no network 172.16.133.204 0.0.0.0
+Router31(config-router)#no network 172.17.3.8 0.0.0.3
+Router31(config-router)#network 172.17.3.0 0.0.0.3   
+Router31(config-router)#do sh ip route               
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 1 subnets
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 2 subnets, 2 masks
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+Router31(config-router)#do sh ip                     
+*Mar 21 17:11:15.403: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is up: new adjacency
+Router31(config-router)#do sh ip protocol
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0/24
+    172.16.133.201/32
+    172.17.3.0/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      01:15:45
+    172.17.3.2            90      00:00:04
+  Distance: internal 90 external 170
+
+Router31(config-router)#do sh ip route   
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 18 subnets
+D       172.17.5.8 [90/4263936] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.4.8 [90/4786176] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.6.8 [90/3741696] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.1.8 [90/3219456] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.2.8 [90/2697216] via 172.17.3.2, 00:00:07, FastEthernet0/1
+D       172.17.5.0 [90/3749376] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.1.4 [90/3216896] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.4.0 [90/4271616] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.6.0 [90/3227136] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.2.4 [90/2694656] via 172.17.3.2, 00:00:09, FastEthernet0/1
+D       172.17.5.4 [90/4261376] via 172.17.3.2, 00:00:10, FastEthernet0/1
+D       172.17.1.0 [90/2704896] via 172.17.3.2, 00:00:10, FastEthernet0/1
+D       172.17.4.4 [90/4783616] via 172.17.3.2, 00:00:10, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+D       172.17.6.4 [90/3739136] via 172.17.3.2, 00:00:10, FastEthernet0/1
+D       172.17.2.0 [90/2182656] via 172.17.3.2, 00:00:10, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 5 subnets, 3 masks
+D       172.16.32.0/24 [90/30720] via 172.17.3.2, 00:00:45, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90/2174976] via 172.17.3.2, 00:00:10, FastEthernet0/1
+C       172.16.133.201/32 is directly connected, Loopback0
+D       172.16.133.202/32 
+           [90/156160] via 172.17.3.2, 00:00:45, FastEthernet0/1
+Router31(config-router)#do sh ip route 
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 18 subnets
+D       172.17.5.8 [90/4263936] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.4.8 [90/4786176] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.6.8 [90/3741696] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.1.8 [90/3219456] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.2.8 [90/2697216] via 172.17.3.2, 00:00:27, FastEthernet0/1
+D       172.17.5.0 [90/3749376] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.1.4 [90/3216896] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.4.0 [90/4271616] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.6.0 [90/3227136] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.2.4 [90/2694656] via 172.17.3.2, 00:00:28, FastEthernet0/1
+D       172.17.5.4 [90/4261376] via 172.17.3.2, 00:00:30, FastEthernet0/1
+D       172.17.1.0 [90/2704896] via 172.17.3.2, 00:00:30, FastEthernet0/1
+D       172.17.4.4 [90/4783616] via 172.17.3.2, 00:00:30, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+D       172.17.6.4 [90/3739136] via 172.17.3.2, 00:00:30, FastEthernet0/1
+D       172.17.2.0 [90/2182656] via 172.17.3.2, 00:00:30, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 5 subnets, 3 masks
+D       172.16.32.0/24 [90/30720] via 172.17.3.2, 00:01:05, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90/2174976] via 172.17.3.2, 00:00:30, FastEthernet0/1
+C       172.16.133.201/32 is directly connected, Loopback0
+D       172.16.133.202/32 
+           [90/156160] via 172.17.3.2, 00:01:05, FastEthernet0/1
+Router31(config-router)#do sh ip route | include 172.16.22.0
+Router31(config-router)#do sh ip route | include 172.16.34.0
+Router31(config-router)#do sh ip route | include 172.17.3.0 
+C       172.17.3.0 is directly connected, FastEthernet0/1
+Router31(config-router)#router ospf ^Z
+% Incomplete command.
+
+Router31#coi
+*Mar 21 17:18:09.623: %SYS-5-CONFIG_I: Configured from console by console
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router ospf 1
+Router31(config-router)#^Z
+Router31#sh r
+*Mar 21 17:20:08.167: %SYS-5-CONFIG_I: Configured from console by console
+Router31#sh run | section  router eigrp
+router eigrp 307
+ network 172.16.31.0 0.0.0.255
+ network 172.16.133.201 0.0.0.0
+ network 172.17.3.0 0.0.0.3
+ no auto-summary
+ eigrp router-id 172.16.133.201
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#router ospf 1
+Router31(config-router)#router-id 172.16.133.201
+Router31(config-router)#network 172.16.133.201 0.0.0.0 area 0
+Router31(config-router)#network 172.16.31.0 0.0.0.255 area 0
+Router31(config-router)#network 172.17.3.0 0.0.0.3 area 0
+Router31(config-router)#
+*Mar 21 17:24:47.271: %OSPF-5-ADJCHG: Process 1, Nbr 172.16.133.202 on FastEthernet0/1 from LOADING to FULL, Loading Done
+Router31(config-router)#do sh ip protocol
+Routing Protocol is "eigrp 307"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Default networks flagged in outgoing updates
+  Default networks accepted from incoming updates
+  EIGRP metric weight K1=1, K2=0, K3=1, K4=0, K5=0
+  EIGRP maximum hopcount 100
+  EIGRP maximum metric variance 1
+  Redistributing: eigrp 307
+  EIGRP NSF-aware route hold timer is 240s
+  Automatic network summarization is not in effect
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0/24
+    172.16.133.201/32
+    172.17.3.0/30
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    (this router)         90      01:30:58
+    172.17.3.2            90      00:14:43
+  Distance: internal 90 external 170
+
+Routing Protocol is "ospf 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Router ID 172.16.133.201
+  Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+  Maximum path: 4
+  Routing for Networks:
+    172.16.31.0 0.0.0.255 area 0
+    172.16.133.201 0.0.0.0 area 0
+    172.17.3.0 0.0.0.3 area 0
+ Reference bandwidth unit is 100 mbps
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    172.16.133.201       110      00:04:05
+    172.16.133.202       110      00:01:11
+  Distance: (default is 110)
+
+Router31(config-router)#
+*Mar 21 17:28:53.235: %OSPF-5-ADJCHG: Process 1, Nbr 172.16.133.202 on FastEthernet0/1 from FULL to DOWN, Neighbor Down: Dead timer expired
+Router31(config-router)#
+*Mar 21 17:29:04.295: %OSPF-5-ADJCHG: Process 1, Nbr 172.16.133.202 on FastEthernet0/1 from LOADING to FULL, Loading Done
+Router31(config-router)#do sh ip route 
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 18 subnets
+D       172.17.5.8 [90/4263936] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.4.8 [90/4786176] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.6.8 [90/3741696] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.1.8 [90/3219456] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.3.8 [90/2174976] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.2.8 [90/2697216] via 172.17.3.2, 00:18:43, FastEthernet0/1
+D       172.17.5.0 [90/3749376] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.1.4 [90/3216896] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.4.0 [90/4271616] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.3.4 [90/2172416] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.6.0 [90/3227136] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.2.4 [90/2694656] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.5.4 [90/4261376] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.1.0 [90/2704896] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.4.4 [90/4783616] via 172.17.3.2, 00:18:44, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+D       172.17.6.4 [90/3739136] via 172.17.3.2, 00:18:44, FastEthernet0/1
+D       172.17.2.0 [90/2182656] via 172.17.3.2, 00:18:44, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 8 subnets, 3 masks
+D       172.16.32.0/24 [90/30720] via 172.17.3.2, 00:19:19, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:00:57, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+D       172.16.0.0/16 [90/2174976] via 172.17.3.2, 00:18:46, FastEthernet0/1
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:00:57, FastEthernet0/1
+D       172.16.133.202/32 
+           [90/156160] via 172.17.3.2, 00:19:20, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:00:57, FastEthernet0/1
+Router31(config-router)#^Z
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#
+*Mar 21 17:33:58.951: %SYS-5-CONFIG_I: Configured from console by console
+Router31(config)#no router eigrp 307
+
+*Mar 21 17:34:05.739: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.16.31.2 (FastEthernet0/0) is down: interface down
+*Mar 21 17:34:05.743: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 307: Neighbor 172.17.3.2 (FastEthernet0/1) is down: interface down
+Router31(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+O       172.17.3.8 [110/66] via 172.17.3.2, 00:00:09, FastEthernet0/1
+O       172.17.3.4 [110/65] via 172.17.3.2, 00:00:09, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+O       172.16.32.0/24 [110/2] via 172.17.3.2, 00:00:09, FastEthernet0/1
+O       172.16.33.0/24 [110/66] via 172.17.3.2, 00:00:09, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:00:09, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:00:10, FastEthernet0/1
+O       172.16.133.202/32 [110/2] via 172.17.3.2, 00:00:10, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:00:10, FastEthernet0/1
+Router31(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+O       172.17.3.8 [110/66] via 172.17.3.2, 00:00:35, FastEthernet0/1
+O       172.17.3.4 [110/65] via 172.17.3.2, 00:00:35, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+O       172.16.32.0/24 [110/2] via 172.17.3.2, 00:00:35, FastEthernet0/1
+O       172.16.33.0/24 [110/66] via 172.17.3.2, 00:00:35, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:00:35, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:00:36, FastEthernet0/1
+O       172.16.133.202/32 [110/2] via 172.17.3.2, 00:00:36, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:00:36, FastEthernet0/1
+Router31(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+O       172.17.3.8 [110/66] via 172.17.3.2, 00:00:37, FastEthernet0/1
+O       172.17.3.4 [110/65] via 172.17.3.2, 00:00:37, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+O       172.16.32.0/24 [110/2] via 172.17.3.2, 00:00:37, FastEthernet0/1
+O       172.16.33.0/24 [110/66] via 172.17.3.2, 00:00:37, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:00:37, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:00:39, FastEthernet0/1
+O       172.16.133.202/32 [110/2] via 172.17.3.2, 00:00:39, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:00:39, FastEthernet0/1
+Router31(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+O       172.17.3.8 [110/66] via 172.17.3.2, 00:00:54, FastEthernet0/1
+O       172.17.3.4 [110/65] via 172.17.3.2, 00:00:54, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+O       172.16.32.0/24 [110/2] via 172.17.3.2, 00:00:54, FastEthernet0/1
+O       172.16.33.0/24 [110/66] via 172.17.3.2, 00:00:54, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:00:54, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:00:55, FastEthernet0/1
+O       172.16.133.202/32 [110/2] via 172.17.3.2, 00:00:55, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:00:55, FastEthernet0/1
+Router31(config)#sh run | section ospf
+                   ^
+% Invalid input detected at '^' marker.
+
+Router31(config)#do sh run | section ospf
+router ospf 1
+ router-id 172.16.133.201
+ log-adjacency-changes
+ network 172.16.31.0 0.0.0.255 area 0
+ network 172.16.133.201 0.0.0.0 area 0
+ network 172.17.3.0 0.0.0.3 area 0
+Router31(config)#router ospf 1
+Router31(config-router)#do sh ip route     
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.17.0.0/30 is subnetted, 3 subnets
+O       172.17.3.8 [110/66] via 172.17.3.2, 00:08:52, FastEthernet0/1
+O       172.17.3.4 [110/65] via 172.17.3.2, 00:08:52, FastEthernet0/1
+C       172.17.3.0 is directly connected, FastEthernet0/1
+     172.16.0.0/16 is variably subnetted, 9 subnets, 2 masks
+O       172.16.32.0/24 [110/2] via 172.17.3.2, 00:08:52, FastEthernet0/1
+O       172.16.33.0/24 [110/66] via 172.17.3.2, 00:08:52, FastEthernet0/1
+O       172.16.34.0/24 [110/67] via 172.17.3.2, 00:08:52, FastEthernet0/1
+C       172.16.31.0/24 is directly connected, FastEthernet0/0
+C       172.16.133.201/32 is directly connected, Loopback0
+O       172.16.133.203/32 [110/66] via 172.17.3.2, 00:08:53, FastEthernet0/1
+O       172.16.133.202/32 [110/2] via 172.17.3.2, 00:08:53, FastEthernet0/1
+O       172.16.133.205/32 [110/68] via 172.17.3.2, 00:00:26, FastEthernet0/1
+O       172.16.133.204/32 [110/67] via 172.17.3.2, 00:08:55, FastEthernet0/1
+Router31(config-router)#^Z
+Router31#era
+*Mar 21 17:49:49.103: %SYS-5-CONFIG_I: Configured from console by console
+Router31#erase start
+% Incomplete command.
+
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#erase start
+                   ^
+% Invalid input detected at '^' marker.
+
+Router31(config)#^Z
+Router31#^Z
+Router31#^Z
+Router31#
+*Mar 21 17:50:12.271: %SYS-5-CONFIG_I: Configured from console by console
+Router31#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router31 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+User Access Verification
+
+Password: 
+Router31>ena
+Password: 
+Password: 
+Router31#erase start
+Router31#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Router31#rl
+*Mar 21 17:50:38.719: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router31#reload
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+*Mar 21 17:50:46.675: %SYS-5-RELOAD: Reload requested  by console. Reload Reason: Reload Command.
+*Mar 21 17:50:46.907: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Mar 21 17:50:46.907: %OSPF-5-ADJCHG: Process 1, Nbr 172.16.133.202 on FastEthernet0/1 from FULL to DOWN, Neighbor Down: Interface down or detached
+02:07:09: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/20, changed state to down
+02:07:10: %LINK-3-UPDOWN: Interface FastEthernet0/20, changed state to down
+
+User Access Verification
+
+Password: 
+Password: 
+Switch31>ena
+Password: 
+02:07:13: %LINK-3-UPDOWN: Interface FastEthernet0/20, changed state to up
+02:07:14: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/20, changed state to up
+Switch31#erase start
+Switch31#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Switch31#
+02:07:21: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Switch31#reload
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+02:07:25: %SYS-5-RELOAD: Reload requested by console. Reload Reason: Reload command.
+Base ethernet MAC Address: 00:18:73:d2:55:80
+Xmodem file system is available.
+The password-recovery mechanism is enabled.
+Initializing Flash...
+flashfs[0]: 356 files, 5 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 15998976
+flashfs[0]: Bytes used: 11382784
+flashfs[0]: Bytes available: 4616192
+flashfs[0]: flashfs fsck took 17 seconds.
+...done Initializing Flash.
+Boot Sector Filesystem (bs) installed, fsid: 3
+done.
+Loading "flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin"...flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin: no such file or directory
+
+Error loading "flash:c3560-ipservices-mz.122-25.SEB4/c3560-ipservices-mz.122-25.SEB4.bin"
+
+Interrupt within 5 seconds to abort boot process.

@@ -1,0 +1,215 @@
+ISP:
+
+ena
+conf t
+hostname ISP
+enable secret cisco
+int f0/0
+ip address 160.15.20.65 255.255.255.248
+no shutdown
+int s0/1/0 
+ip address 160.15.20.137 255.255.255.252
+no shutdown
+clock rate 2000000
+
+exit
+
+line con 0
+logging sync
+password cisco
+login
+exec-timeout 0 0
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 60 0
+
+exit
+
+copy running-config startup-config
+
+NY:
+
+ena
+conf t
+hostname NewYork
+enable secret cisco
+int f0/0
+ip address 172.18.19.1 255.255.255.224
+no shutdown
+int s0/0/1 
+ip address 172.18.19.142 255.255.255.252
+no shutdown
+clock rate 2000000
+
+exit
+
+line con 0
+logging sync
+password cisco
+login
+exec-timeout 0 0
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 60 0
+
+exit
+
+copy running-config startup-config
+
+IPv4 Static Route:
+ip route 172.18.19.48 255.255.255.240 172.18.19.141
+ip route 172.18.19.32 255.255.255.240 172.18.19.134
+
+IPv4 OSPF:
+router ospf 1
+network 172.18.19.0 0.0.0.255 area 0
+no ip route 172.18.19.48 255.255.255.240 172.18.19.141
+no ip route 172.18.19.32 255.255.255.240 172.18.19.134
+
+IPv6 Static Route:
+ipv6 route 2001:0:0:48::/64 2001::140:172:18:19:141
+ipv6 route 2001::/64 2001::172:18:19:132:134
+ipv6 route ::/64 2001::140:172:18:19:141
+ipv6 route 2001:0:0:32::/64 2001::140:172:18:19:134
+
+IPv6 OSPF:
+ipv6 router ospf 1
+passive-interface Serial0/0/1
+int s0/0/1
+ipv6 ospf 1 area 0
+no ipv6 route 2001:0:0:48::/64 2001::140:172:18:19:141
+no ipv6 route 2001::/64 2001::172:18:19:132:134
+no ipv6 route ::/64 2001::140:172:18:19:141
+no ipv6 route 2001:0:0:32::/64 2001::140:172:18:19:134
+
+
+Austin:
+
+ena
+conf t
+hostname Austin
+enable secret cisco
+int f0/0
+ip address 172.18.19.49 255.255.255.240
+no shutdown
+int s0/0/0 
+ip address 172.18.19.133 255.255.255.252
+no shutdown
+clock rate 2000000
+int s0/0/1 
+ip address 172.18.19.141 255.255.255.252
+no shutdown
+clock rate 2000000
+int s0/1/0 
+ip address 160.15.20.138 255.255.255.252
+no shutdown
+clock rate 2000000
+line con 0
+logging sync
+password cisco
+login
+exec-timeout 0 0
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 60 0
+
+copy running-config startup-config
+
+Static Route:
+ip route 172.18.19.32 255.255.255.240 172.18.19.134
+ip route 172.18.19.0 255.255.255.240 172.18.19.142
+
+IPv4 OSPF:
+router ospf 1
+network 172.18.19.0 0.0.0.255 area 0
+default-information originate
+no ip route 172.18.19.32 255.255.255.240 172.18.19.134
+no ip route 172.18.19.0 255.255.255.240 172.18.19.142
+
+IPv6 Static Route:
+ipv6 route 2001::/64 2001::140:172:18:19:142
+ipv6 route 2001::/64 2001::172:18:19:140:142
+ipv6 route 2001::/64 2001::172:18:19:132:134
+ipv6 route ::/64 2001::136:160:15:20:137
+
+IPv6 OSPF:
+ipv6 router ospf 1
+passive-interface s0/0/1
+passive-interface s0/0/0
+exit
+int s0/0/1
+ipv6 ospf 1 area 0
+int s0/0/0
+ipv6 ospf 1 area 0
+no ipv6 route 2001::/64 2001::140:172:18:19:142
+no ipv6 route 2001::/64 2001::172:18:19:140:142
+no ipv6 route 2001::/64 2001::172:18:19:132:134
+
+Boston:
+
+ena
+conf t
+hostname Boston
+enable secret cisco
+int f0/0
+ip address 172.18.19.33 255.255.255.240
+no shutdown
+int s0/0/0 
+ip address 172.18.19.134 255.255.255.252
+no shutdown
+clock rate 2000000
+line con 0
+logging sync
+password cisco
+login
+exec-timeout 0 0
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 60 0
+
+copy running-config startup-config
+
+Static Routing:
+ip route 172.18.19.48 255.255.255.240 172.18.19.133
+ip route 172.18.19.0 255.255.255.224 172.18.19.142
+
+IPv4 OSPF:
+router ospf 1 
+network 172.18.19.0 0.0.0.255 area 0
+no ip route 172.18.19.48 255.255.255.240 172.18.19.133
+no ip route 172.18.19.0 255.255.255.224 172.18.19.142
+
+IPv6 Static Routing:
+ipv6 route 2001::/64 2001::172:18:19:132:133
+ipv6 route 2001:0:0:48::/64 2001::132:172:18:19:133
+ipv6 route ::/64 2001::132:172:18:19:133
+
+Ipv6 OSPF:
+ipv6 router ospf 1
+passive-interface s0/0/0
+exit
+int s0/0/0
+ipv6 ospf 1 area 0
+exit
+no ipv6 route 2001::/64 2001::172:18:19:132:133
+no ipv6 route 2001:0:0:48::/64 2001::132:172:18:19:133
+no ipv6 route ::/64 2001::132:172:18:19:133
+
+Fred Trying to setup IPv6:
+
+NY Router:
+ipv6 route 2001::48:172:18:19:49/64 2001::140:172:18:19:141
+
+Austin:
+ipv6 route 2001::0:172:18:19:1/64 2001::140:172:18:19:142
+
+
+

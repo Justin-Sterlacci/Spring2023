@@ -1,0 +1,76 @@
+1. Neodymium, Promethium, Dysprosium, Ytterbium
+2. 4 Degrees Celsius
+3. True
+4. Gun Shooting Range
+5. This is the first Superfund Site
+6. B(RC),D(LG),A(WM),F(EB),C(BICF),E(VS)
+7. Carbaryl
+8. Chlordane
+9. 100
+
+10. 
+Step 2:
+- More Sustainable than Regular Meat:
+"Cultured meat is presented by its advocates as a sustainable alternative for consumers who want to be more responsible but do not wish to change the composition of their diet" (Page 2, Introduction)
+- Ethical Benefits: 
+"Many scientific authors recognize the potential ethical benefits of artificial meat, namely an increase in animal welfare, nutrition-related diseases, food-borne illnesses, resource use, and greenhouse gas emissions (32), other authors, as discussed previously, are not convinced that the production of artificial meat will have a low carbon footprint"(Page 6, Ethics)
+- Animal Welfare:
+"Despite the fact that the process of cultured meat needs muscle samples from animals, the number of slaughtered animals can be reduced significantly"(Page 4, Comparison of Welfare Issues With Conventional Farming)
+
+Step 3:
+- Technological Challenges
+- Social Acceptance
+
+11.
+Q-1: Bisphenol is a chemical that is used in producing plastics and resins. Its primary use is for polycarbonate plastics like water bottles, food storage containers, and medical devices.
+
+Q-2: Bisphenol Exposure is widespread, with detectable levels found in Urine Samples of most people. his is due to the widespread use of Bisphenol products and since it can leach out of plastic containers into food and drinks
+
+Q-3: Bisphenol is considered an endocrine-disrupting chemical, which means it can interupt somebodys hormonal balance. Bisphenol exposure can also lead to reproductive problems, obesity, and neurological disorders. 
+
+Q-4: Endocrine disruption occurs when chemicals interfere with somebodys hormonal balance, which can lead to negative health effects. Three examples of this is as follows: 
+
+-Exposure to bisphenol was linked to decreased sperm count and motility in men, suggesting a potential role in male infertility.
+-Bisphenol exposure may contribute to the development of obesity, as it can interfere with the body's regulation of fat tissue.
+-Bisphenol exposure may be linked to the development of neurological disorders such as autism and ADHD, as it can interfere with the function of certain neurotransmitters.
+
+12. 
+The Seveso Disaster (July 1976)
+Chemical involved: Dioxin
+Industrial use of the chemical: A byproduct of the production of herbicides and defoliants that was being produced at a chemical plant in Seveso, Italy.
+Known health effects of chemical: Can Cause cancer, reproductive and developmental problems, damage to the immune and endocrine systems in humans, skin lesions, and chloracne.
+Cause and consequence of the event: A reactor at the Seveso plant overheated, which caused a pressure release valve to fail, which caused the release of a cloud of toxic dioxin gas into the surrounding area. Over 37,000 people were exposed to the dioxin, which resulted in the evacuation of the area around the plant. The disaster led to the adoption of new regulations for chemical plants and the monitoring of dioxin levels in the environment.
+Citation: https://pubmed.ncbi.nlm.nih.gov/30179766/
+
+Bhopal Gas Leak (December 1984)
+Chemical involved: Methyl isocyanate 
+Industrial use of the chemical: Used in the production of pesticides and was being used at a Union Carbide plant in Bhopal, India.
+Known health effects of chemical: Can cause respiratory problems, eye irritation, chest pain, gastrointestinal problems, cancer, damage to the liver, kidneys, and nervous system.
+Cause and consequence of the event: Water entered a tank containing a large quantity of Methyl Isocyanate, causing a chemical reaction that led to a buildup of pressure and the release of a cloud of toxic gas into the surrounding area. Thousands of people were killed in the immediate aftermath of the disaster, and many more suffered long-term health effects. The disaster led to new regulations for chemical plants and the development of emergency response plans for chemical accidents.
+Citation: https://www.theatlantic.com/photo/2014/12/bhopal-the-worlds-worst-industrial-disaster-30-years-later/100864/#:~:text=Thirty%20years%20ago%2C%20on%20the,number%20of%20other%20poisonous%20gases.
+
+Minamata Disease Disaster (1956)
+Chemical involved: Methylmercury
+Industrial use of the chemical: A byproduct of industrial processes, where a chemical plant was dumping wastewater containing methylmercury into the bay.
+Known health effects of chemical: A potent neurotoxin that can cause severe neurological damage, including tremors, memory loss, coordination problems, birth defects and developmental problems in children.
+Cause and consequence of the event: The release of methylmercury into Minamata Bay led to widespread contamination of the fish and shellfish that the local population relied on for food. Thousands of people were affected by Minamata Disease, with many suffering from severe neurological damage. The disaster led to increased awareness of the dangers of mercury pollution and the development of new regulations to limit mercury emissions from industrial processes.
+Citation: https://www.japantimes.co.jp/life/2012/10/07/environment/minamata-a-saga-of-suffering-and-hope/
+
+
+13.
+1. Neither of the options presented are safe to drink in its current conditions. Since Lead is a toxic metal and Dioxins are highly toxic chemicals that can cause cancer and other damage to your body. The best course of action would be to take the water from the lake and either boil the water to, hopefully, steralize the water before drinking or to use a water filtration system. 
+
+2. What I would do in this scenario is, firstly, contact a member of the Agency for Protection of Environment to test the qualtiy of both the tap water and the lake water. Based on the results, then I can determine which of the water options to drink. Whichever water I chose to drink, I would first boil the water to ensure that it is steralized. As best stated by WHO, it is significantly more important to prioritize safety of drinking water over convience to ensure the health of a society. 
+Citation:
+https://www.who.int/publications/i/item/9789240045064
+
+14. 
+Argument 1 - Against lifting the DDT ban:
+DDT is a persistent organic pollutant that can have severe impacts on wildlife and the environment. The chemical accumulates in the food chain and can cause reproductive and developmental issues in birds and other wildlife as well as being linked to cancer and other health problems in humans. Even though DDT has been used to combat malaria, it is not a sustainable solution as mosquitoes can develop resistance to it over time. Instead, efforts should be made to develop safer and more effective methods to control mosquito populations.
+
+Reference: United Nations Environment Programme. (2017). Global chemicals outlook II - from legacies to innovative solutions: Implementing the 2030 agenda for sustainable development. https://www.unep.org/resources/report/global-chemicals-outlook-ii-legacies-innovative-solutions
+
+Argument 2 - For lifting the DDT ban:
+DDT has proven to be highly effective in controlling the spread of malaria, a disease that kills millions of people every year. The chemical can be used to spray walls and other surfaces in households and public spaces to kill mosquitoes. DDT is also cheap and easy to produce, making it an attractive option for countries with limited resources. While there are concerns about the environmental and health impacts of DDT, these can be minimized by using the chemical in a responsible manner and adhering to strict guidelines for its use.
+
+Reference: https://malariajournal.biomedcentral.com/articles/10.1186/s12936-017-2050-2

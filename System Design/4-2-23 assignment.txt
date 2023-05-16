@@ -1,0 +1,30 @@
+5 User stories are as follows:
+- As a User, I want to be able to check the amount of money in my acounts because I want to keep myself informed about the state of my accounts.
+- As an Admin, I want to be able to recieve alerts for suspicious account activity because it can aid our customers and prevent fraudulant charges. 
+- As a User, I want to be able to deposit checks on my smartphone because it can make depositing checks easier and eliminates a trip to the bank. 
+- As a Maintanance Worker, I want to be able to get alerts for errors or faults in the system because it can help to quickly identify any issues, critical or not, within the system/app. 
+- As a Admin, I want to be able to search for an account based off an ID because it can make it easy to assist customers, in the case there are multiple account holders with the same name. 
+
+Advantages(in order of the list above): 
+- With several senior employees, this should be a relatively easy task to handle, assuming that these employees have had experience in the development of a banking app in the past
+- This would be an easy task for the team, as the information can be pulled based off of location and frequency of transactions. 
+- This would be a harder task to acomplish, however if an AI was created to assist in the process, it would make it significantly easier and less strain on the team. 
+- This would allow for problems to be solved quickly to eliminate any further possible damage. 
+- This would make it significantly easier for customer service employees to find accounts, and it would skim through the database of ID's, find the one its looking for, and pull up the account, if there is an account matching the ID. 
+
+Disadvantages(in order of the list above): 
+- The total amount of money in the account would have to be constantly updated, and should there be a crash/system error it can impede on a users ability to do this. 
+- There could be an issue with false errors when a user is in a foriegn country(without alerting the bank) or if they can only take out a certain amount of money per atm. 
+- Should users have this ability, it can be harder to detect fake checks, which could lead to massive amounts of fraud, should the system have any faults. 
+- This system could produce some false errors, and could cause concern when none is needed. 
+- Depending on how large the database of ID's are, it can lead to long load times should it not be optimized fully. 
+
+A banking app usually requires depositing of checks, ability to check account balances, ability to wire money through the bank, get in contact with customer support, ability to deactive their card in the case it is lost or stolen, and more. 
+
+I would divide the team into one team of 3 and a team of 2. With the team of 3, it would have 2 senior employees and one new hire, and the other team of 2 would have the remaining 2 senior employees. The reason for this set up is because the new employee could learn from the two senior employees, and would allow for questions to be asked by the new employee, should it be needed. 
+
+Maintanance for the app would look like a small team of developers recieving errors from the system on any crashes or issues it is currently having. The process would be to identify the issue, either from a error code or error statement, diagnose what caused the issue, then resolve the issue. 
+
+This app would be majorly functional in one release, since if the app isn't fully completed by the first release, outside of testing, there can be issues where users wouldn't be able to complete certain actions depending if the developer released an update where the process is completed. Having full functionality in one release would allow users to do whatever it is they need to do, relatively free of errors. 
+
+I would use Waterfall for this project, as it allows for a set deadline for work to be completed by, either for the entire project or a deadline for each phase. This would maximize efficiency and it allows everyone to know exactly when project phase is due, as well as when the entire project must be completed by. 

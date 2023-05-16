@@ -1,0 +1,1122 @@
+
+%Error opening tftp://255.255.255.255/network-confg (Timed out)
+%Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: 
+% Please answer 'yes' or 'no'.
+Would you like to enter the initial configuration dialog? [yes/no]: no
+% There may not be enough space available to collect the complete crashinfo
+% It would be advisable to have 280755 bytes free space on flash:crashinfo
+
+
+Press RETURN to get started!
+
+
+*Apr 11 16:15:30.891: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+*Apr 11 16:15:30.895: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+*Apr 11 16:15:32.603: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Apr 11 16:15:32.603: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Apr 11 16:15:32.603: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Apr 11 16:15:32.603: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to up
+*Apr 11 16:15:32.607: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+*Apr 11 16:15:32.607: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to down
+*Apr 11 16:15:32.607: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to down
+*Apr 11 16:15:32.607: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, cha
+Router>
+Routenged state to down
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to up
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/0, changed state to down
+*Apr 11 16:15:33.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/1, changed state to down
+*Apr 11 16:16:03.991: %LINK-5-SLARP: Serial0/0/0 address 172.16.10.2, resolved by 172.16.10.1
+*Apr 11 16:16:47.499: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+*Apr 11 16:16:59.063: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/network-confg) failed
+*Apr 11 16:17:03.567: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to down
+*Apr 11 16:17:04.567: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to down
+*Apr 11 16:17:40.139: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/cisconet.cfg) failed
+*Apr 11 16:19:52.811: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Apr 11 16:20:23.991: %IP-5-WEBINST_KILL: Terminating DNS process
+*Apr 11 16:20:24.171: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Apr 11 16:20:24.171: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Apr 11 16:20:24.175: %LINK-5-CHANGED: Interface Serial0/0/1, changed state to administratively down
+*Apr 11 16:20:24.175: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to administratively down
+*Apr 11 16:20:24.175: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to administratively down
+*Apr 11 16:20:25.171: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Apr 11 16:20:32.431: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to up
+*Apr 11 16:20:32.691: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+*Apr 11 16:20:32.699: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Apr 11 16:20:32.931: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Apr 11 16:20:32.935: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Apr 11 16:20:33.471: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to up
+*Apr 11 16:20:36.655: %SYS-6-BOOTTIME: Time taken to reboot after reload =  417 secondsr>
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#line con 0
+Router(config-line)#logging syn
+Router(config-line)#logging synchronous 
+Router(config-line)#line vty 0 4
+Router(config-line)#logging sync
+Router(config-line)#exit
+Router(config)#hostname Router32
+Router32(config)#int f0/1
+Router32(config-if)#ip address 201.1.2.2 255.255.255.248 
+Router32(config-if)#no shut
+Router32(config-if)#
+*Apr 11 16:22:03.059: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+Router32(config-if)#int f0/0
+Router32(config-if)#ip address 192.168.47.1 255.255.255.0
+Router32(config-if)#no shut
+Router32(config-if)#
+*Apr 11 16:22:29.455: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+Router32(config-if)#do sh int
+FastEthernet0/0 is up, line protocol is down 
+  Hardware is MV96340 Ethernet, address is 001c.5897.9eb8 (bia 001c.5897.9eb8)
+  Internet address is 192.168.47.1/24
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto Speed, 100BaseTX/FX
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:03:36, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     36 packets input, 20868 bytes
+     Received 36 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog
+     0 input packets with dribble condition detected
+     68 packets output, 24521 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+FastEthernet0/1 is up, line protocol is up 
+  Hardware is MV96340 Ethernet, address is 001c.5897.9eb9 (bia 001c.5897.9eb9)
+  Internet address is 201.1.2.2/29
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto Speed, 100BaseTX/FX
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:02, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     166 packets input, 13082 bytes
+     Received 165 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog
+     0 input packets with dribble condition detected
+     80 packets output, 29705 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+Serial0/0/0 is up, line protocol is up 
+  Hardware is GT96K Serial
+  Internet address is 172.16.10.2/30
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  CRC checking enabled
+  Last input 00:00:00, output 00:00:03, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 
+*Apr 11 16:23:58.975: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up0/0 (allocated/max allocated)
+     Available Bandwidth 1158 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     74 packets input, 5503 bytes, 0 no buffer
+     Received 64 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     54 packets output, 4923 bytes, 0 underruns
+     0 output errors, 0 collisions, 3 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     6 carrier transitions
+     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial0/0/1 is administratively down, line protocol is down 
+  Hardware is GT96K Serial
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  CRC checking enabled
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1158 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+
+Serial0/1/0 is administratively down, line protocol is down 
+  Hardware is GT96K Serial
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  CRC checking enabled
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1158 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+
+Serial0/1/1 is administratively down, line protocol is down 
+  Hardware is GT96K Serial
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  CRC checking enabled
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1158 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+
+Router32(config-if)#do sh int brief
+sh int brief
+       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#do sh int bri  
+*Apr 11 16:24:13.339: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+Router32(config-if)#do sh run                            
+Building configuration...
+
+Current configuration : 1073 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router32
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+multilink bundle-name authenticated
+!         
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+! 
+!         
+!
+!
+archive
+ log config
+ hidekeys
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.47.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 201.1.2.2 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ ip address 172.16.10.2 255.255.255.252
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+!
+!
+ip http server
+no ip http secure-server
+!
+!         
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ logging synchronous
+ login
+!         
+scheduler allocate 20000 1000
+
+!
+webvpn cef
+!
+end
+
+Router32(config-if)#exit
+Router32(config)#line con 0
+Router32(config-line)#exe
+Router32(config-line)#exec
+Router32(config-line)#exec-
+Router32(config-line)#exec-t
+Router32(config-line)#exec-timeout 0 0
+Router32(config-line)#exit
+Router32(config)#line vty 0 4
+Router32(config-line)#password cisco
+Router32(config-line)#login
+Router32(config-line)#exit
+Router32(config)#ip route 201.2.3.0 255.255.255.0 201.1.2.1
+Router32(config)#no ip route 201.2.3.0 255.255.255.0 201.1.2.1
+Router32(config)#ip route 0.0.0.0 0.0.0.0 201.1.2.1
+Router32(config)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 201.1.2.1 to network 0.0.0.0
+
+C    192.168.47.0/24 is directly connected, FastEthernet0/0
+     172.16.0.0/30 is subnetted, 1 subnets
+C       172.16.10.0 is directly connected, Serial0/0/0
+     201.1.2.0/29 is subnetted, 1 subnets
+C       201.1.2.0 is directly connected, FastEthernet0/1
+S*   0.0.0.0/0 [1/0] via 201.1.2.1
+Router32(config)#do sh run
+Building configuration...
+
+Current configuration : 1142 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router32
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+multilink bundle-name authenticated
+!         
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+! 
+!         
+!
+!
+archive
+ log config
+ hidekeys
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.47.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 201.1.2.2 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ ip address 172.16.10.2 255.255.255.252
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+ip route 0.0.0.0 0.0.0.0 201.1.2.1
+!
+!
+ip http server
+no ip http secure-server
+!         
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ password cisco
+ logging synchronous
+ login
+!
+scheduler allocate 20000 1000
+
+!
+webvpn cef
+!
+end
+
+Router32(config)#no ip route 0.0.0.0 0.0.0.0 201.1.2.1
+Router32(config)# ip route 0.0.0.0 0.0.0.0 200.1.2.1  
+Router32(config)#do sh run
+Building configuration...
+
+Current configuration : 1142 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router32
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+multilink bundle-name authenticated
+!         
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+! 
+!         
+!
+!
+archive
+ log config
+ hidekeys
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.47.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 201.1.2.2 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ ip address 172.16.10.2 255.255.255.252
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+ip route 0.0.0.0 0.0.0.0 200.1.2.1
+!
+!
+ip http server
+no ip http secure-server
+!         
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ password cisco
+ logging synchronous
+ login
+!
+scheduler allocate 20000 1000
+
+!
+webvpn cef
+!
+end
+
+Router32(config)#int f0/1
+Router32(config-if)#ip address 200.1.2.2
+% Incomplete command.
+
+Router32(config-if)#ip address 200.1.2.2 255.255.255.248
+Router32(config-if)#do sh run
+Building configuration...
+
+Current configuration : 1142 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router32
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+multilink bundle-name authenticated
+!         
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+! 
+!         
+!
+!
+archive
+ log config
+ hidekeys
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.47.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 200.1.2.2 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ ip address 172.16.10.2 255.255.255.252
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+ip route 0.0.0.0 0.0.0.0 200.1.2.1
+!
+!
+ip http server
+no ip http secure-server
+!         
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ password cisco
+ logging synchronous
+ login
+!
+scheduler allocate 20000 1000
+
+!
+webvpn cef
+!
+end
+
+Router32(config-if)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 200.1.2.1 to network 0.0.0.0
+
+C    192.168.47.0/24 is directly connected, FastEthernet0/0
+     200.1.2.0/29 is subnetted, 1 subnets
+C       200.1.2.0 is directly connected, FastEthernet0/1
+     172.16.0.0/30 is subnetted, 1 subnets
+C       172.16.10.0 is directly connected, Serial0/0/0
+S*   0.0.0.0/0 [1/0] via 200.1.2.1
+Router32(config-if)#do sh ip roite
+sh ip roite
+        ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 200.1.2.1 to network 0.0.0.0
+
+C    192.168.47.0/24 is directly connected, FastEthernet0/0
+     200.1.2.0/29 is subnetted, 1 subnets
+C       200.1.2.0 is directly connected, FastEthernet0/1
+     172.16.0.0/30 is subnetted, 1 subnets
+C       172.16.10.0 is directly connected, Serial0/0/0
+S*   0.0.0.0/0 [1/0] via 200.1.2.1
+Router32(config-if)#sh ip int brief
+                       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#do sh ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.47.1    YES manual up                    up      
+FastEthernet0/1            200.1.2.2       YES manual up                    up      
+Serial0/0/0                172.16.10.2     YES SLARP  up                    up      
+Serial0/0/1                unassigned      YES unset  administratively down down    
+Serial0/1/0                unassigned      YES unset  administratively down down    
+Serial0/1/1                unassigned      YES unset  administratively down down    
+Router32(config-if)#int s0/0/0
+Router32(config-if)#no ip address 172.16.10.2
+% Incomplete command.
+
+Router32(config-if)#no ip address            
+Router32(config-if)#so sh ip int brief
+                       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#do sh ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.47.1    YES manual up                    up      
+FastEthernet0/1            200.1.2.2       YES manual up                    up      
+Serial0/0/0                unassigned      YES manual up                    up      
+Serial0/0/1                unassigned      YES unset  administratively down down    
+Serial0/1/0                unassigned      YES unset  administratively down down    
+Serial0/1/1                unassigned      YES unset  administratively down down    
+Router32(config-if)#
+*Apr 11 16:42:25.959: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+Router32(config-if)#
+*Apr 11 16:42:47.911: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Router32(config-if)#exit
+Router32(config)#exit
+Router32#
+*Apr 11 16:43:37.395: %SYS-5-CONFIG_I: Configured from console by console
+Router32#te
+*Apr 11 16:43:37.543: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to down
+*Apr 11 16:43:38.543: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to down
+Router32#telnet 201.2.3.10
+Trying 201.2.3.10 ... 
+% Connection refused by remote host
+
+Router32#telnet 201.2.3.1 
+Trying 201.2.3.1 ... Open
+
+
+User Access Verification
+
+Password: 
+Router31>ena
+Password: 
+Router31#ping 192.168.47.102
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.47.102, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#exit
+
+[Connection to 201.2.3.1 closed by foreign host]
+Router32#conf t     
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router32(config)#enable password cisco
+Router32(config)#int f0/1
+Router32(config-if)#ip access-group 14 in
+Router32(config-if)#access-list 14 deny 192.168.47.102 0.0.0.0
+Router32(config)#sh access-list
+                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#do sh access-list
+Standard IP access list 14
+    10 deny   192.168.47.102 (12 matches)
+Router32(config)#do sh ip accee
+Router32(config)#do sh ip acce 
+Router32(config)#do sh ip access-list
+Standard IP access list 14
+    10 deny   192.168.47.102 (12 matches)
+Router32(config)#access-list 14 permit any
+Router32(config)#do sh acc
+Router32(config)#do sh access-l
+Router32(config)#do sh access-list
+Standard IP access list 14
+    10 deny   192.168.47.102 (12 matches)
+    20 permit any (8 matches)
+Router32(config)#d
+Router32(config)#int f0/1
+Router32(config-if)#no ip-a
+Router32(config-if)#no ip-acc
+Router32(config-if)#no ip acc   
+Router32(config-if)#no ip access-group 14 in
+Router32(config-if)#ip access-group 14 out
+Router32(config-if)#clear ip access-list
+                      ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#exit                  
+Router32(config)#clear couters
+                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#clear counters
+                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#do clear counters
+Clear "show interface" counters on all interfaces [confirm]
+Router32(config)#
+*Apr 11 17:21:09.675: %CLEAR-5-COUNTERS: Clear counter on all interfaces by console
+Router32(config)#test
+                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#do sh access-list
+Standard IP access list 14
+    10 deny   192.168.47.102 (12 matches)
+    20 permit any (8 matches)
+Router32(config)#do sh access-list
+Standard IP access list 14
+    10 deny   192.168.47.102 (12 matches)
+    20 permit any (12 matches)
+Router32(config)#do sh access-list counters
+
+Router32(config)#do clear ip access-list counters
+
+Router32(config)#do sh access-list               
+Standard IP access list 14
+    10 deny   192.168.47.102
+    20 permit any
+Router32(config)#int f0/0
+Router32(config-if)#no ip access-list 14 out
+                                 ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#no ip access-group 14 out
+Router32(config-if)#exit
+Router32(config)#ip access-group 15 in
+                           ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#int f0/0
+Router32(config-if)#ip access-group 14 in
+Router32(config-if)#no ip access-group 14 in
+Router32(config-if)#no ip access-group 15 in
+Router32(config-if)#ip access-group 15 in   
+Router32(config-if)#$CP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 80    
+Translating "TCP"...domain server (255.255.255.255)
+
+access-list 15 deny TCP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 80
+       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#access-list 15 deny HTTP 192.168.47.102 0.0.0.0 192.168.47$
+Translating "HTTP"...domain server (255.255.255.255)
+
+access-list 15 deny HTTP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 80
+       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#exit
+Router32(config)#access-list ?
+  <1-99>            IP standard access list
+  <100-199>         IP extended access list
+  <1100-1199>       Extended 48-bit MAC address access list
+  <1300-1999>       IP standard access list (expanded range)
+  <200-299>         Protocol type-code access list
+  <2000-2699>       IP extended access list (expanded range)
+  <700-799>         48-bit MAC address access list
+  compiled          Enable IP access-list compilation
+  dynamic-extended  Extend the dynamic ACL absolute timer
+  rate-limit        Simple rate-limit specific access list
+
+Router32(config)#int f0/0      
+Router32(config-if)#access-list 115 deny HTTP 192.168.47.102 0.0.0.0 192.168.4$
+access-list 115 deny HTTP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 80
+       ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#exit\
+                        ^
+% Invalid input detected at '^' marker.
+
+Router32(config-if)#exit 
+Router32(config)#$TCP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq ?       
+  <0-65535>    Port number
+  bgp          Border Gateway Protocol (179)
+  chargen      Character generator (19)
+  cmd          Remote commands (rcmd, 514)
+  daytime      Daytime (13)
+  discard      Discard (9)
+  domain       Domain Name Service (53)
+  drip         Dynamic Routing Information Protocol (3949)
+  echo         Echo (7)
+  exec         Exec (rsh, 512)
+  finger       Finger (79)
+  ftp          File Transfer Protocol (21)
+  ftp-data     FTP data connections (20)
+  gopher       Gopher (70)
+  hostname     NIC hostname server (101)
+  ident        Ident Protocol (113)
+  irc          Internet Relay Chat (194)
+  klogin       Kerberos login (543)
+  kshell       Kerberos shell (544)
+  login        Login (rlogin, 513)
+  lpd          Printer service (515)
+  nntp         Network News Transport Protocol (119)
+  pim-auto-rp  PIM Auto-RP (496)
+  pop2         Post Office Protocol v2 (109)
+  pop3         Post Office Protocol v3 (110)
+  smtp         Simple Mail Transport Protocol (25)
+  sunrpc       Sun Remote Procedure Call (111)
+  syslog       Syslog (514)
+  tacacs       TAC Access Control System (49)
+  talk         Talk (517)
+  telnet       Telnet (23)
+  time         Time (37)
+  uucp         Unix-to-Unix Copy Program (540)
+  whois        Nicname (43)
+  www          World Wide Web (HTTP, 80)
+
+Router32(config)#$TCP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 80        
+Router32(config)#$t ip 192.168.47.102 0.0.0.0 200.1.2.1 0.0.0.0 eq 23          
+access-list 114 permit ip 192.168.47.102 0.0.0.0 200.1.2.1 0.0.0.0 eq 23
+                                                                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#$t ip 192.168.47.102 0.0.0.0 200.1.2.1 0.0.0.0 ?    
+  dscp        Match packets with given dscp value
+  fragments   Check non-initial fragments
+  log         Log matches against this entry
+  log-input   Log matches against this entry, including input interface
+  precedence  Match packets with given precedence value
+  time-range  Specify a time-range
+  tos         Match packets with given TOS value
+  <cr>
+
+Router32(config)#no access-list 114 permit ip 192.168.47.102 0.0.0.0 200.1.2.1$
+Router32(config)#$rmit TCP 192.168.47.102 0.0.0.0 200.1.2.1 0.0.0.0 eq 3389
+Router32(config)#$it TCP 192.168.47.102 0.0.0.0 192.168.47.1 0.0.0.0 eq 3389   
+Router32(config)#$it TCP 192.168.47.1 0.0.0.0 200.1.2.1 0.0.0.0 eq 3389     
+Router32(config)#access-list deny all                                          
+                              ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#access-list 114 deny all                                      
+                                       ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#exit                    
+Router32#exity
+Translating "exity"...domain server (255.255.255.255)
+*Apr 11 18:06:46.487: %SYS-5-CONFIG_I: Configured from console by console
+
+Translating "exity"...domain server (255.255.255.255)
+ (255.255.255.255)
+Translating "exity"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router32#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router32(config)#
+Router32(config)#
+Router32(config)#erase start-config
+                   ^
+% Invalid input detected at '^' marker.
+
+Router32(config)#do er
+Router32(config)#exit     
+Router32#erase s
+*Apr 11 18:07:36.315: %SYS-5-CONFIG_I: Configured from console by console
+Router32#erase sta
+Router32#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Router32#
+*Apr 11 18:07:41.595: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router32#reload
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+*Apr 11 18:07:49.255: %SYS-5-RELOAD: Reload requested  by console. Reload Reason: Reload Command.
+
+System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2006 by cisco Systems, Inc.
+
+Initializing memory for ECC

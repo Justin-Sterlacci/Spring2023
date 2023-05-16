@@ -1,0 +1,63 @@
+max points: 18
+
+1 - D
+2- water vapor
+3-B
+4-D
+5-D
+6-C,B,D,A
+7-D
+8-B
+9-C
+10-A
+11-A
+12-B
+13-D
+14-C
+
+15:
+A conclusion that I am able to make based off the data provided by Exxon, is that the CO2 in the atmostphere impacts the temperature of the earth, and it is projected to keep impacting the earth as the CO2 levels in the atmosphere raise. Another conclusion that I am able to make is that the earths temperature has varied over thousands of years, however the earth has naturally cooled in the past. As of late, on the contrary, the earth has contintued to warm/stay warm rather than naturally cool, showing that humans have had some sort of impact. 
+
+16:
+The graph that is provided, while it is a true diagram, if you take a step back and look at the broader picture as time has passed since the publication of that short segment. The graph I am using is provided by the Global Monitoring Labratory(GML) (1), which is the same publication where the data provided is from. For my own research, I set the time frame from January 2020- January 2023.  Looking at the statistics of CO2 (ppm) over time until January 2023, you can see that the CO2 levels will decrease in the late summer to  fall months, however the CO2 levels will increase to an even higher point once you get into the winter months and into May of each year, as May is the highest amount of CO2 in a year.
+
+(1): US Department of Commerce, NOAA. “Trends in Atmospheric Carbon Dioxide.” GML, 1 Oct. 2005, https://gml.noaa.gov/ccgg/trends/graph.html. 
+
+
+17:
+A)
+The impact that the proposed 20% flat tax would have on the provided Carbon Footprint Curve graph would be:
+ - The bottom 50% of the populations Carbon footprint would become even lesser, as the bottom 50% might not be able to afford gasoline with the new 20% tax. 
+- The top 50-75% of the population would be impacted by this tax, however not as much that is needed to reach the Carbon Economy Necessity line. The curve would only drop slightly. 
+- The top 25% of the population would remain mostly unimpacted by this 20% tax as they would be able to afford the gasoline, regardless of how much tax is placed on it. 
+
+B) I believe that the 20% flat tax on gasoline would not be effective in reducing the total populations Carbon Footprint greatly, as the top 25% would still have a large Carbon Footprint regardless of the price of gasoline. 
+
+C) What I believe would be more impactful is if the top 25% of the population is taxed based on their households Carbon Footprint, as an incentive to reduce their Carbon Footprint, which would get this population closer to the Carbon Economy Necessity Line. The tax would have to be impactful enough to make the top 25% to lower their Carbon Footprint greatly to get the least amount of tax against them. 
+
+
+18:
+I do not believe that we are headed towards another "mini ice age", as it has already been over 60 years since the last time that the Global Surface temperature has decreased. This is a sure sign of Global Warming. This can also be seen as there was a correlation between the dips in Total Solar Irradiance and Global Surface temperatures, such as 1900-1920. To have the "mini ice age" the Global Surface temperature would of had to be dropping at a similar rate to the Total Solar Irradiance. 
+
+
+
+19:
+My take on the "Selective Invisibility of Oil" is that in cities, more steps are taken to route and hide oil from the public eye through complex means, as well as providing better protection agianst the damage that oil can do. However areas that aren't cities, primarily nature, are not given the same treatment to protect the area and hide the oil or any othter natural resources. This is having irrepairable damage on the earths natural resources as a whole and needs to be put to a stop, or at least slowed, in order to preserve what little natural resources the earth has left. 
+
+The way that this is a Climate Injustice is because this is ruining any natural beauty that the earth had before corporations and society as a whole impacted the earth. The purposful hiding of the damage oil can have on surrounding areas from the publics eye cannot be accidental, and bringing it to light is important in its own right.As described in the excerpt, the Selective Invisibility of Oil is “ 'a pure, singular and stable domain removed from and defined in relation to urban, industrial society' (Lorimer 2012, p. 593), and needs to be exploited for the well-being of humans (Taylor 2000)."
+
+
+
+20:
+"Cancer Alley" is a term used to refer to an area in Louisiana, USA, along the Mississippi River between Baton Rouge and New Orleans. The area is so called due to its high concentration of industrial facilities, including petrochemical plants, refineries, and chemical plants, which emit harmful pollutants into the air and water.(#1)
+
+The high levels of pollution in the area have been linked to increased rates of cancer and other health problems among residents, particularly those from low-income and minority communities.(#2) The pollutants can cause respiratory problems, neurological damage, and birth defects.(#3)
+
+The term "Cancer Alley" was first coined in the 1980s by environmental activists who were concerned about the impact of industrial pollution on local communities.(#4) Since then, the issue has gained increasing attention from policymakers, public health experts, and environmental advocates.
+
+Efforts have been made to address the pollution in Cancer Alley, including regulations on emissions and pollution control technologies. However, environmental and public health groups argue that more needs to be done to protect the health and well-being of local residents, who continue to be disproportionately affected by industrial pollution.(#5)
+
+
+#1: “Environmental Racism in Louisiana's 'Cancer Alley', Must End, Say UN Human Rights Experts | UN News.” United Nations, United Nations, 2 Mar. 2021, https://news.un.org/en/story/2021/03/1086172. 
+
+#4: Song, Lisa, and Lylla Younes. “EPA Calls out Environmental Racism in Louisiana's Cancer Alley.” Government Executive, ProPublica, 20 Oct. 2022, https://www.govexec.com/management/2022/10/epa-calls-out-environmental-racism-louisianas-cancer-alley/378669/. 

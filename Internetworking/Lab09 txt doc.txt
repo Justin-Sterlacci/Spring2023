@@ -1,0 +1,30 @@
+no access-list 100 permit tcp 192.168.47.101 0.0.0.0 201.2.3.10 0.0.0.0 eq 80
+no access-list 100 permit tcp 192.168.47.102 0.0.0.0 201.2.3.10 0.0.0.0 eq 80
+
+no access-list 100 permit tcp 192.168.47.103 0.0.0.0 202.3.4.20 0.0.0.0 eq 443
+no access-list 100 permit tcp 192.168.47.104 0.0.0.0 202.3.4.20 0.0.0.0 eq 443
+
+no access-list 100 permit tcp 192.168.47.101 0.0.0.0 172.31.74.200 0.0.0.0 eq 443
+no access-list 100 permit tcp 192.168.47.102 0.0.0.0 172.31.74.200 0.0.0.0 eq 443
+no access-list 100 permit tcp 192.168.47.103 0.0.0.0 172.31.74.200 0.0.0.0 eq 443
+no access-list 100 permit tcp 192.168.47.104 0.0.0.0 172.31.74.200 0.0.0.0 eq 443
+
+no access-list 100 permit tcp 192.168.47.101 0.0.0.0 172.31.74.201 0.0.0.0 eq 110
+no access-list 100 permit tcp 192.168.47.102 0.0.0.0 172.31.74.201 0.0.0.0 eq 110
+no access-list 100 permit tcp 192.168.47.103 0.0.0.0 172.31.74.201 0.0.0.0 eq 110
+no access-list 100 permit tcp 192.168.47.104 0.0.0.0 172.31.74.201 0.0.0.0 eq 110
+
+no access-list 100 permit tcp 192.168.47.104 0.0.0.0 172.31.74.201 0.0.0.0 eq 25
+no access-list 100 permit tcp 192.168.47.103 0.0.0.0 172.31.74.201 0.0.0.0 eq 25
+no access-list 100 permit tcp 192.168.47.102 0.0.0.0 172.31.74.201 0.0.0.0 eq 25
+no access-list 100 permit tcp 192.168.47.101 0.0.0.0 172.31.74.201 0.0.0.0 eq 25
+
+no access-list 100 permit icmp 192.168.47.101 0.0.0.0 200.1.2.1 0.0.0.0
+no access-list 100 permit icmp 192.168.47.102 0.0.0.0 200.1.2.1 0.0.0.0 
+no access-list 100 permit icmp 192.168.47.103 0.0.0.0 200.1.2.1 0.0.0.0
+no access-list 100 permit icmp 192.168.47.104 0.0.0.0 200.1.2.1 0.0.0.0 
+
+no access-list 100 deny ip any any
+
+int g0/0
+no ip access-group 100 out

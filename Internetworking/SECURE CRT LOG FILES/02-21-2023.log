@@ -1,0 +1,234 @@
+﻿Switch31>conf t
+            ^
+% Invalid input detected at '^' marker.
+
+Switch31>ena
+Password: 
+Switch31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch31(config)#^Z
+Switch31#
+4d23h: %SYS-5-CONFIG_I: Configured from console by console
+Switch31#ping 192.168.29.42
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.42, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Switch31#192.168.29.10
+Trying 192.168.29.10 ... 
+% Connection timed out; remote host not responding
+
+Switch31#
+Switch31#
+Switch31#
+Switch31#
+Switch31#p^ZProtocol [ip]: ecsape
+% Unknown protocol - "ecsape", type "ping ?" for help
+Switch31#
+Switch31#
+Switch31#
+Switch31#
+Switch31#f^@
+% Incomplete command.
+
+Switch31#   
+Switch31#
+Switch31#ping 192.168.29.10
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.10, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Switch31#
+
+User Access Verification
+
+Password: 
+Password: 
+Router31>ena
+Password: 
+Router31#ping 192.168.29.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#ping 192.168.29.25
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.25, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+Router31#ping 192.168.29.26
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.26, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.168.29.0/29 is subnetted, 3 subnets
+C       192.168.29.16 is directly connected, FastEthernet0/0.12
+C       192.168.29.24 is directly connected, FastEthernet0/1
+C       192.168.29.8 is directly connected, FastEthernet0/0.11
+     198.168.29.0/29 is subnetted, 1 subnets
+C       198.168.29.0 is directly connected, FastEthernet0/0.1
+Router31#ping 192.168.29.2 
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.2, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#ping 192.168.29.9
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 192.168.29.17
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.17, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 192.168.29.18
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.18, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#ping 192.168.29.10
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.10, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router31#ping 192.168.29.10
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.29.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router31#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router31 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+User Access Verification
+
+Password: 
+Password: 
+Password: 
+Router31>conf t               
+            ^
+% Invalid input detected at '^' marker.
+
+Router31>ena
+Password: 
+Router31#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router31(config)#ip route 192.168.29.32 255.255.255.248 192.168.29.26
+Router31(config)#ip route 192.168.29.40 255.255.255.248 192.168.29.26
+Router31(config)#ip route 192.168.29.40 255.255.255.248 192.168.29.34
+Router31(config)#ip route 192.168.29.48 255.255.255.248 192.168.29.42
+Router31(config)#ip route 192.168.29.56 255.255.255.248 192.168.29.50 
+Router31(config)#sh ip route
+                   ^
+% Invalid input detected at '^' marker.
+
+Router31(config)#^Z
+Router31#sh ip
+*Feb 21 18:50:43.963: %SYS-5-CONFIG_I: Configured from console by console
+Router31#sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.168.29.0/29 is subnetted, 7 subnets
+S       192.168.29.48 [1/0] via 192.168.29.42
+S       192.168.29.56 [1/0] via 192.168.29.50
+S       192.168.29.32 [1/0] via 192.168.29.26
+S       192.168.29.40 [1/0] via 192.168.29.34
+                      [1/0] via 192.168.29.26
+C       192.168.29.16 is directly connected, FastEthernet0/0.12
+C       192.168.29.24 is directly connected, FastEthernet0/1
+C       192.168.29.8 is directly connected, FastEthernet0/0.11
+     198.168.29.0/29 is subnetted, 1 subnets
+C       198.168.29.0 is directly connected, FastEthernet0/0.1
+Router31#erase start
+Router31#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Router31#
+*Feb 21 18:53:23.347: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router31#
+
+User Access Verification
+
+Password: 
+Password: 
+Switch31>ena
+Password: 
+Switch31#erase start
+Switch31#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Switch31#
+5d00h: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram

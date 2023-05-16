@@ -1,0 +1,56 @@
+NY-Router:
+no ip route 172.19.2.0 255.255.255.0 172.19.12.2
+no ip route 172.19.3.0 255.255.255.0 172.19.23.2
+no ip route 172.19.23.0 255.255.255.0 172.19.12.2
+
+OSPF
+router OSPF 1
+router-id 172.19.0.1
+network 172.19.1.0 0.0.0.255 area 0
+no network 172.19.0.0 0.0.0.255 area 0
+
+
+TX-Router:
+no ip route 172.19.1.0 255.255.255.0 172.19.12.1
+no ip route 172.19.3.0 255.255.255.0 172.19.23.2
+ip route 0.0.0.0 0.0.0.0 198.18.18.1
+
+
+OSPF
+router OSPF 1
+router-id 172.19.0.2
+network 172.19.1.0 0.0.0.255 area 0
+no network 172.19.0.0 0.0.0.255 area 0
+
+
+IL-Router:
+no ip route 172.19.1.0 255.255.255.0 172.19.12.1
+no ip route 172.19.2.0 255.255.255.0 172.19.23.2
+ip route 172.19.12.0 255.255.255.0 172.19.23.1
+
+OSPF
+router OSPF 1
+router-id 172.19.0.3
+network 172.19.1.0 0.0.0.255 area 0
+no network 172.19.0.0 0.0.0.255 area 0
+
+Loopback interface
+
+no ip address 172.19.0.1 255.255.255.255
+ip address 10.0.0.1 255.255.255.255
+
+
+no ip address 172.19.0.2 255.255.255.255
+ip address 10.0.0.2 255.255.255.255
+
+no ip address 172.19.0.3 255.255.255.255
+ip address 10.0.0.3 255.255.255.255
+
+
+
+
+
+
+
+ISP-Router:
+ip route 0.0.0.0 0.0.0.0 198.18.18.2
